@@ -611,6 +611,7 @@ input {
     width: 294px;
     margin: auto;
     font-size: 14px;
+    border-radius: 1px;
     font-weight: bold;
     margin-top: 40px;
 }
