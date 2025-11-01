@@ -1,0 +1,633 @@
+* {
+    margin: 0% 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.NavBar {
+    width: 1200px;
+    height: 80px;
+    background-color: #8D27FF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 500px;
+    position: fixed;
+    top: 32px;
+    z-index: 1000;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+    margin-left: 32px;
+}
+
+.menu ul {
+    display: flex;
+    width: 453px;
+    height: 12px;
+    gap: 80px;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+input {
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    padding: 0px 32px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-right: 32px;
+    border: none;
+}
+
+.Hero {
+    width: 1200px;
+    height: inherit;
+    margin: auto;
+    padding-top: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroleft {
+    width: 550px;
+}
+
+.HeroHeading {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.HeroHeading h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+}
+
+.herodescription p {
+    color: #555555;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.button input {
+    color: #555555;
+    background-color: #ffffff;
+    width: 200px;
+    height: 50px;
+    box-shadow: 1px 4px 2px #000;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.HeroRight img {
+    width: 500px;
+    height: 515px;
+}
+
+.Clients {
+    width: 100%;
+    margin: auto;
+}
+
+.Clients h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Clients img {
+    width: 1040px;
+    height: 80px;
+    display: block;
+    margin: 40px auto;
+
+}
+
+.why {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    background-image: url(Images/Why\ 99x\ section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 450px;
+}
+
+.why-inner {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why-inner img {
+    width: 300px;
+    height: 400px;
+}
+
+.why-right {
+    width: 780px;
+}
+
+.why-right h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.why-right ul {
+    color: #000;
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.why-right h4 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.key-features {
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    justify-content: center;
+}
+
+.key-features h2 {
+    color: #8C25FF;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.discription {
+    color: #000000;
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.last {
+    width: 605px;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.last h4 {
+    color: #8C25FF;
+    width: 100%;
+    font-size: 20px;
+    font-weight: semi-bold;
+    text-align: center;
+}
+
+.last img {
+    width: 24px;
+    height: 18px;
+    margin: 0%;
+}
+
+.Features {
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Features div {
+    width: 333px;
+    height: 144px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(141, 39, 255, 0.3);
+}
+
+.data {
+    padding: 32px 20px;
+    text-align: center;
+}
+
+.Features div:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 30px rgb(141, 39, 255, 0.5);
+    transition: 0.5s;
+}
+
+.data img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 24px 0px;
+}
+
+.data h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: medium;
+    margin-bottom: 13px;
+}
+
+.data p {
+    color: #000000;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.why-choose {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-image: url(Images/Why\ 99x\ section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 450px;
+}
+
+.inner {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-data {
+    width: 560px;
+}
+
+.choose-data h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: semi-bold;
+    margin-bottom: 16px;
+}
+
+.choose-data p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+
+.choose-data ul li {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 160%;
+}
+
+.inner img {
+    width: 520px;
+    height: 376px;
+}
+
+.industries {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: rgb(141, 39, 255, 0.2);
+    justify-content: center;
+}
+
+.industries h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.industries p {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.industries-data {
+    width: 1200px;
+    height: 440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.ind {
+    width: 200px;
+    height: 144px;
+    padding: 32px 38px 18px 38px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(141, 39, 255, 0.3);
+    text-align: center;
+}
+
+.ind:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgb(141, 39, 255, 0.5);
+    transition: 0.5s;
+}
+
+.ind img {
+    width: 50px;
+    height: 50px;
+    margin: 0%;
+    margin-bottom: 24px;
+}
+
+.ind h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: medium;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.ind p {
+    width: 200px;
+    margin: 0%;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.how {
+    width: 100%;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.how h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.how p {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.steps {
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.step-1 {
+    position: absolute;
+    left: 0%;
+    top: 120px;
+}
+
+.img-1 {
+    width: 258px;
+    height: 113px;
+    margin: 0%;
+    position: absolute;
+    left: 163px;
+    top: 8px;
+}
+
+.img-2 {
+    width: 273px;
+    height: 94px;
+    margin: 0%;
+    position: absolute;
+    left: 775px;
+    top: 26px;
+}
+
+.step-2 {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+}
+
+.step-3 {
+    position: absolute;
+    right: 0%;
+    top: 120px;
+}
+
+.steps div {
+    width: 350px;
+    height: 310px;
+    box-shadow: 0px 0px 20px rgb(141, 39, 255, 0.3);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.steps>div>img {
+    width: 100px;
+    height: 100px;
+    margin: 40px 125px 24px 125px;
+}
+
+.steps>div>h4 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: medium;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.steps>div>p {
+    color: #000000;
+    width: 290px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.howbutton {
+    width: 260px;
+    color: #8D27FF;
+    box-shadow: 1px 2px 20px rgb(141, 39, 255, 0.3);
+    border: 2px solid #8D27FF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+}
+
+.Review {
+    width: 1200px;
+    margin: 80px auto;
+}
+
+.Review h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: semi-bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-data {
+    display: flex;
+    align-items: end;
+    gap: 40px;
+}
+
+.review-left,
+.review-right {
+    width: 373px;
+    height: 361px;
+    box-shadow: 0px 0px 20px rgb(141, 39, 255, 0.3);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.review-left {
+    background-color: #C28CFF;
+    position: relative;
+}
+
+.review-center {
+    width: 374px;
+    height: 461px;
+    background-color: #8D27FF;
+    box-shadow: 0px 0px 20px rgb(141, 39, 255, 0.3);
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.review-right {
+    background-color: #5A00BF;
+    position: relative;
+}
+
+.review-data>div>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    margin: 44px 0px 0px 0px;
+    position: relative;
+    z-index: 10;
+}
+
+.review-left img {
+    border: 16px solid #C28CFF;
+}
+
+.review-center img {
+    border: 16px solid #8D27FF;
+}
+
+.review-right img {
+    border: 16px solid #5A00BF;
+}
+
+.review-left>div {
+    width: 341px;
+    height: 203px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    text-align: center;
+
+}
+
+.review-center>div {
+    width: 341px;
+    height: 303px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    text-align: center;
+
+}
+
+.review-right>div {
+    width: 341px;
+    height: 203px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    text-align: center;
+
+}
+
+.review-left div ul {
+    width: 294px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.review-center>div>ul {
+    width: 294px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 80px;
+
+}
+
+.review-right>div>ul {
+    width: 294px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
