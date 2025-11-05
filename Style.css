@@ -612,7 +612,8 @@ input {
     margin: auto;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 48px;
+    margin-bottom: 32px;
 }
 
 .review-center>div>ul {
@@ -620,7 +621,9 @@ input {
     margin: auto;
     font-size: 16px;
     font-weight: bold;
+    line-height: 130%;
     margin-top: 80px;
+    margin-bottom: 40px;
 
 }
 
@@ -629,5 +632,12 @@ input {
     margin: auto;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.review-data>div>div>h4 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: regular;
 }
