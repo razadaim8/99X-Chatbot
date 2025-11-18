@@ -641,3 +641,71 @@ input {
     font-size: 16px;
     font-weight: regular;
 }
+
+#nameleft {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#jobleft {
+    color: #000;
+    font-size: 12px;
+    font-weight: regular;
+}
+
+#namecenter {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#jobcenter {
+    color: #000;
+    font-size: 12px;
+    font-weight: regular;
+}
+
+#nameright {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#jobright {
+    color: #000;
+    font-size: 12px;
+    font-weight: regular;
+}
+
+#Point {
+    display: flex;
+    justify-content: center;
+}
+
+#Point img {
+    width: 148px;
+    height: 25px;
+    margin: 24px auto 0px auto;
+}
+
+#performance {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: rgb(141, 39, 255, 0.2);
+    justify-content: center;
+}
+#performance h2 {
+    color: #8C25FF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+#performance p {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 16px;
+}
