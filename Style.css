@@ -94,7 +94,6 @@ input {
     font-weight: normal;
 }
 
-
 .HeroRight img {
     width: 500px;
     height: 515px;
@@ -695,12 +694,14 @@ input {
     background-color: rgb(141, 39, 255, 0.2);
     justify-content: center;
 }
+
 #performance h2 {
     color: #8C25FF;
     font-size: 40px;
     font-weight: 600;
     text-align: center;
 }
+
 #performance p {
     width: 800px;
     margin: auto;
@@ -708,4 +709,11 @@ input {
     font-weight: normal;
     text-align: center;
     padding-top: 16px;
+}
+
+#performance img {
+    width: 1200px;
+    height: 400px;
+    display: block;
+    margin: 40px auto 0px auto;
 }
